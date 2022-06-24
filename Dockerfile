@@ -1,5 +1,5 @@
 FROM ruby:3.0.2
-
+# test added on 20220622
 # throw errors if Gemfile has been modified since Gemfile.lock
 RUN useradd -u 1000 -m -s /bin/bash appuser
 USER 1000
